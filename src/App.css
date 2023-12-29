@@ -1,0 +1,65 @@
+body{
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-box{
+  background-color: #141414;
+  border: 1px solid #141414;
+  padding:  5rem 5rem 5rem 5rem;
+  border-radius: 10px;
+ /* max-width: 20vw; */
+}
+img{
+  margin: auto;
+}
+.Email input{
+  padding: 10px;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  border: 1px solid #141414;
+  margin: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+ 
+}
+
+.Password input{
+  padding: 10px;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  border: 1px solid #141414;
+  margin: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.btn{
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #141414;
+  background-color: #71BE58;
+  color: white;
+  margin: 15px 0px;
+  border: none;
+}
+
+::placeholder{
+  font-weight: bold;
+  font-size: 14px;
+  
+}
+.forget-password a{
+  text-decoration: underline;
+  color: grey;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  
+}
+.forget-password{
+  width: 100%;
+ 
+}
